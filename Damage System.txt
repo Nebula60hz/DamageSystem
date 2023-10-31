@@ -1,0 +1,36 @@
+Damage System 
+
+Damage includes gundshot, 
+
+Damagable Sections Include:
+	- Head
+	- Chest
+	- Stomach
+	- Waist
+	- Left Leg
+	- Right Leg
+	- Left Arm
+	- Right Arm
+
+Damageable Subsections Include:
+	- 
+
+Damage Effects:
+	- Death
+	- Light Bleeding
+	- Heavy Bleeding
+	- Wound
+	- Fracture
+	- Break
+	- Puncture
+
+When Damaged:
+
+	Head: When shot instant death; Death
+	Chest: When shot start fast bleedout and slow character; Heavy Bleeding, Wound, Puncture
+	Stomach: When shot start slow bleedout and imcompacitate the player; Heavy Bleeding, Wound
+	Waist: When shot imcompacitate the player; Heavy Bleeding, Break or Fracture (Random 55/45), Wound
+	Legs: When shot slow movement speed by 50% and start slow bleedout sped up by moving; Light Bleeding, Break or Fracture (Random 60/40), Wound
+	Arms: When shot the player cannot use any weapons, excess inventory, or climb/mantle; Light Bleeding, Break or Fracture (Random 60/40), Wound
+
+	
